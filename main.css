@@ -1,0 +1,361 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-list img{
+    width: 38px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    
+    
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    border:  2px solid white;
+    border-radius: 50%;
+}
+.searchbar{
+    width: 50%;
+    text-align: right;
+    padding: 0px 19px;
+   
+}
+
+.nav-list li a:hover{
+    color: green;
+}
+
+.nav-list{
+    display: flex;
+
+    width: 50%;
+    align-items: center;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    
+
+}
+
+.nav-list li{
+    width: 94px;
+    list-style: none;
+
+}
+#search{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+.navbar{
+    background-image: image("img/company1.jpg")
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img/company2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.secondhalf img{
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 23%;
+    display: block;
+    margin: auto;
+
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.fistSection{
+    height: 100vh;
+}
+
+.fisthalf{
+    color: white;
+    width: 75%;
+}
+.secondhalf{
+    width: 30%;
+}
+
+.button btn-sm{
+    cursor: pointer;
+}
+
+.text-big{
+    font-size: 32px;
+    
+}
+.text-small{
+    font-size:17px;
+}
+.btn-sm{
+    padding: 2px;
+    margin: 7px;
+    border: 2px solid white;
+    border-radius: 9px;
+    font-size: 18px;
+    background: none;
+    color:white;
+}
+.btn{
+    padding: 2px;
+    margin: 7px;
+    border: 2px solid white;
+    border-radius: 9px;
+    font-size: 18px;
+    background:none;
+    color: white;
+}
+
+
+.second{
+    width: 80%;
+    display: flex;
+    
+}
+.image img{
+    width: 428px;
+}
+.third{
+    width: 80%;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62%;
+    width: 80%;
+    margin: auto;
+}
+.left img{
+    width: 250px;
+    padding: 25px;
+    border-radius: 40px;
+}
+.right1{
+    font-size: 40px;
+}
+.left1{
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px 0px;
+}
+.rth{
+    flex-direction: row-reverse;
+}
+
+.left1 img{
+    width: 250px;
+    padding: 25px;
+    border-radius: 40px;
+}
+.right2{
+    font-size: 40px;
+}
+.left2{
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px 0px;
+}
+
+.left2 img{
+    width: 250px;
+    padding: 25px;
+    border-radius: 40px;
+}
+.right3{
+    font-size: 40px;
+}
+.left3{
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px 0px;
+}
+
+
+.last{
+    height: 60vh;
+    background-color: #f3f0ec;
+}
+.hello{
+    justify-content: center;
+    text-align: center;
+}
+
+.center{
+    max-width: 960px;
+    margin: auto;
+}
+
+.center-input{
+    margin: 5px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 13px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+
+.contact{
+    padding: 25px;
+}
+.hello{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.we{
+    color:rgb(62, 61, 61);
+    border: 2px solid gray;
+    width: 71px;
+    height: 34px;
+    border-radius: 13px;
+}
+
+.text-footer{
+    padding: 11px 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1074px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.9s ease-out;
+    }
+
+    .nav-list li{
+        width: 53px;
+        padding: 14px;
+
+    }
+
+    .navbar{
+        position: initial;
+        height: 320px;
+    }
+
+    .searchbar{
+        max-width: 256px;
+        padding: 8px 0px;
+        
+    }
+
+    .burger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+        
+    }
+    .h-nav-resp{
+        height: 55px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .box-main{
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    }
+    
+    .text-small{
+        text-align: center;
+        padding: 9px 0px;
+        font-size: 18px;
+    }
+
+    .text-big{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .right3{
+        text-align: center;
+    }
+
+    .right2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .right1{
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .center-input{
+        margin: 5px 0;
+        padding: 6px 4px;
+        width: 97%;
+        font-size: 12px;
+        border: 2px solid grey;
+        border-radius: 14px;
+    }
+
+    .buttons{
+        display: flex                     ;
+    }
+    .last{
+        height: 44vh;
+    }
+
+}
